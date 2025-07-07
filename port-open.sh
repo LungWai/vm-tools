@@ -1,3 +1,5 @@
+# ONE interactive line:
+gcloud auth login --brief && \
 gcloud compute firewall-rules create allow-custom-ports \
   --allow=tcp:3000-3010,tcp:5000,tcp:8000-8010 \
   --direction=INGRESS \
